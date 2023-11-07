@@ -12,7 +12,7 @@ ec2 = boto3.resource('ec2')
 c = 0 
 for buckets in s3.buckets.all():
     print(buckets)
-    c = c + =
+    c = c + 1
 
 print('total buckets: ',c)
 
